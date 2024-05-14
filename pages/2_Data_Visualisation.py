@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import matplotlib.pyplot as plt
+from openpyxl import load_workbook  # Assurez-vous d'avoir cette ligne pour les fichiers Excel
 import seaborn as sns
 import statsmodels.api as sm
 from read_file import read_excel_file

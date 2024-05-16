@@ -13,7 +13,7 @@ load_css()
 
 st.title('CapAlliance Data Analysis')
 
-file_path = 'data_visualisation.xlsx'
+file_path = 'Data_visual_clean.xlsx'
 
 df = load_data(file_path)
 if 'Zone' in df.columns and 'Surface' in df.columns and 'Prix de vente' in df.columns:

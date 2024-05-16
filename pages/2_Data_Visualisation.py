@@ -18,7 +18,7 @@ load_css()
 
 def main():
     st.title('CapAlliance Data Analysis')
-    file_path = 'data_visualisation.xlsx'
+    file_path = 'Data_visual_clean.xlsx'
 
     df = load_data(file_path)
     nb_rows = st.slider("Choose number of rows you want to display", min_value=5, max_value=len(df), step=20)

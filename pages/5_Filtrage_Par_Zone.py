@@ -12,7 +12,7 @@ def load_data(file_path):
 from css import load_css
 load_css()
 
-file_path = 'data_visualisation.xlsx'
+file_path = 'Data_visual_clean.xlsx'
 
 def main():
     st.title('Analyse des Biens Immobiliers par Zone')

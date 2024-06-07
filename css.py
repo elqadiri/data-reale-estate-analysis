@@ -5,8 +5,8 @@ def load_css():
 <style>
 
     [data-testid="stSidebar"], [data-testid="stHeader"] {
-        background-color: #2C3E50;  /* Dark blue shade */
-        color: white !important;
+        background-color: white;  /* Dark blue shade */
+        color:black;
     }
     [data-testid="stSidebar"] {
         font-weight: bold;
@@ -26,18 +26,33 @@ def load_css():
     [data-testid="stHeader"] {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
+    
     .st-emotion-cache-1m6wrpk {
-        display: flex;
         flex-direction: column;
         align-items: center;
         overflow: auto;
-        background-color: transparent; /* Use transparent for more adaptive styling */
+        color: black;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: table-cell;
+        font-weight : bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
     }
-    .st-emotion-cache-1v0mbdj.e115fcil1 img {
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for transformations */
-        border: 2px solid #2a9d8f; /* Example border color */
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6); /* Shadow for depth */
-    }
+
+    .st-emotion-cache-6qob1r {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: overlay;
+    background-color: white;
+}
+
+.st-emotion-cache-1v0mbdj.e115fcil1 img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition douce pour les transformations */
+    border: 2px solid #2a9d8f; /* Couleur de bordure exemple */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6); /* Ombre pour la profondeur */
+}
+
 
     .st-emotion-cache-1v0mbdj.e115fcil1 img:hover {
         transform: scale(1.05); /* Scale up on hover */
@@ -90,9 +105,27 @@ def load_css():
     text-align: center; /* Alignement du texte */
 }
 
-
-
-
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    color: black;
+    padding: 1.25rem 0px 1rem;
+    margin: 0px;
+    line-height: 1.2;
+    text-align: center;
+}
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: black;
+    letter-spacing: -0.005em;
+    padding: 1rem 0px;
+    margin: 0px;
+    line-height: 1.2;
+}
+.st-emotion-cache-1uy0bt2 {
+    background-color: black;
+}
 
 </style>
     """

@@ -5,20 +5,20 @@ from css import load_css
 st.set_page_config(page_title="Main page")
 st.image("analyst.jpg", use_column_width=True)
 load_css()
-st.header("Bienvenue sur CapAlliance Data Analysis!")
+st.header("Welcome to Tanger Real Estate Data Analysis!")
 st.write("""
-         Bienvenue sur notre plateforme d'analyse de données immobilières. Ici, vous pouvez charger, visualiser, 
-         et analyser des données immobilières pour prendre des décisions éclairées basées sur des analyses de marché approfondies. 
-         Utilisez les onglets à gauche pour naviguer entre différentes fonctionnalités telles que la visualisation de données, 
-         le filtrage des données pour les ventes ou la location, et plus encore.
+         Welcome to our real estate data analysis platform. Here, you can upload, visualize, 
+         and analyze real estate data to make informed decisions based on in-depth market analysis. 
+         Use the tabs on the left to navigate between different features such as data visualization, 
+         filtering data for sales or rentals, and more.
          """)
 
-st.subheader("Comment utiliser cette application")
+st.subheader("How to use this application")
 st.write("""
-          - **Charger des Données**: Commencez par charger vos données immobilières via le bouton de téléchargement.
-          - **Visualisation des Données**: Accédez à l'onglet de visualisation pour voir les distributions et tendances des données.
-          - **Filtrage des Données**: Utilisez les options de filtrage sous les onglets de vente et de location pour affiner les données affichées.
-          - **Analyse**: Observez les résultats des filtres et analysez les données à l'aide des graphiques et des statistiques fournies.
+          - **Upload Data**: Start by uploading your real estate data using the upload button.
+          - **Data Visualization**: Go to the visualization tab to see data distributions and trends.
+          - **Data Filtering**: Use the filtering options under the sales and rental tabs to refine the displayed data.
+          - **Analysis**: Observe the filtered results and analyze the data using the provided charts and statistics.
           """)
 
 

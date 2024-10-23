@@ -17,7 +17,7 @@ from css import load_css
 load_css()
 
 def main():
-    st.title('CapAlliance Data Analysis')
+    st.title('Tanger Real Estate Data Analysis')
     file_path = 'Data_visual_clean.xlsx'
 
     df = load_data(file_path)
